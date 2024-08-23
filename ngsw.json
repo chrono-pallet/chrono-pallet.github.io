@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1724426898806,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-NTJUTBUU.js",
+        "/chunk-S7JVYAEI.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-JAOQFB5M.js",
+        "/manifest.webmanifest",
+        "/polyfills-SCHOHYNV.js",
+        "/styles-34NUJ3H7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/chunk-NTJUTBUU.js": "8637c6b45bcff80cc78d6b9cb37b971cb8fc7611",
+    "/chunk-S7JVYAEI.js": "da26be1eb0251b2235566ff1c31cbdc671a7baeb",
+    "/favicon.ico": "1a1519000f69912a180b7556bf3dbad83ed4a065",
+    "/icons/icon-128x128.png": "206268e29886756e9e0f5298034c48ccfd2c36bc",
+    "/icons/icon-144x144.png": "737d413c7355cc62bebdfcdfc1519f99ec45340d",
+    "/icons/icon-152x152.png": "a8ef1c07a9343dc8cb1710a53754702469c55d09",
+    "/icons/icon-192x192.png": "74393786024cee1bbe6771e6c8ce6ad86949fb0d",
+    "/icons/icon-384x384.png": "db4fab2daf4681ecd3e0e755c0257c06df3e26a1",
+    "/icons/icon-512x512.png": "653e5244508cced8f0b23b795fb63ffb81dfc079",
+    "/icons/icon-72x72.png": "7b2786b41ead50c2476fc8edd14838b1517e3c73",
+    "/icons/icon-96x96.png": "7e3a6c668dba97eeff06e3a74036a460c9f2e218",
+    "/index.html": "54ed176f9a3da4376af595db37cd9de1b6eb3ee5",
+    "/main-JAOQFB5M.js": "c44fd5791287aa27b8ea98694b4e72756ed582c1",
+    "/manifest.webmanifest": "025553068c325cf63ad26c3cfec10b533d57b4f6",
+    "/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
+    "/styles-34NUJ3H7.css": "b239478560def4176aaf67ec873d97d29590810a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
